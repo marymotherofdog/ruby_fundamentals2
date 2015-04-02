@@ -19,8 +19,19 @@ grocery_list << "rice"
 
 #puts grocery_list[1]
 
-sorted_groceries = grocery_list.sort
+#sorted_groceries = grocery_list.sort
 
-list_items(sorted_groceries)
+#list_items(sorted_groceries)
+
+grocery_list << "salmon"
+
+p grocery_list
+
+grocery_list.delete("salmon")
+
+list_items(grocery_list)
+
+
+
 
 
